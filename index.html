@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="product-container">
+        <!-- Produits seront affichés ici -->
+    </div>
+
+    <h2>Ajouter un produit</h2>
+    <form id="product-form">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="price">Prix:</label>
+        <input type="number" id="price" name="price" required>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+        <label for="image_url">URL de l'image:</label>
+        <input type="url" id="image_url" name="image_url" required>
+        <button type="submit">Ajouter le produit</button>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

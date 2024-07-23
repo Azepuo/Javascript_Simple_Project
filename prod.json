@@ -1,0 +1,35 @@
+{
+    "products": [
+      {
+        "name": "Smartphone XYZ",
+        "price": 299.99,
+        "description": "Un smartphone avec écran 6.5 pouces, 128GB de stockage et 4GB de RAM.",
+        "image_url": "https://example.com/images/smartphone_xyz.jpg"
+      },
+      {
+        "name": "Laptop ABC",
+        "price": 799.99,
+        "description": "Un ordinateur portable avec écran 15.6 pouces, Intel Core i7, 16GB de RAM et 512GB SSD.",
+        "image_url": "https://example.com/images/laptop_abc.jpg"
+      },
+      {
+        "name": "Montre Connectée DEF",
+        "price": 199.99,
+        "description": "Une montre connectée avec suivi de la condition physique, notifications et GPS intégré.",
+        "image_url": "https://example.com/images/montre_def.jpg"
+      },
+      {
+        "name": "Casque Audio GHI",
+        "price": 129.99,
+        "description": "Un casque audio sans fil avec réduction de bruit active et autonomie de 20 heures.",
+        "image_url": "https://example.com/images/casque_ghi.jpg"
+      },
+      {
+        "name": "Tablette JKL",
+        "price": 249.99,
+        "description": "Une tablette avec écran 10.1 pouces, 64GB de stockage et 4GB de RAM.",
+        "image_url": "https://example.com/images/tablette_jkl.jpg"
+      }
+    ]
+  }
+  
