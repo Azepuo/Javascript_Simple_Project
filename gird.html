@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple Responsive</title>
+  <style>
+    body {
+      font-size: 16px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      padding: 10px;
+      background-color: aqua;
+    }
+    .item {
+      background-color: lightcoral;
+      padding: 20px;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    @media (min-width: 600px) {
+        .container {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 5px;
+      padding: 5px;
+      background-color: rgb(255, 0, 0);
+    }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Élément 1</div>
+    <div class="item">Élément 2</div>
+    <div class="item">Élément 3</div>
+  </div>
+</body>
+</html>
